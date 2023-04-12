@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="charcoal">#FF101820</color>
+    <color name="yellow">#FFFEE715</color>
+    <color name="dark_yellow">#FFA600</color>
+
+    <!--    DashBoard Colors-->
+    <!--    Body and background Colors-->
+    <color name="home_background">#f2f5f8</color>
+    <color name="banner_background">#f1e9ce</color>
+    <color name="banner_background_light">#56f1e9ce</color>
+
+</resources>

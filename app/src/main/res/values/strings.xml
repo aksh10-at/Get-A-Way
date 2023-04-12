@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Get A Way</string>
+
+<!--    Splash Strings-->
+    <string name="splash_made_by">Made by Akshat</string>
+    <string name="splash_title">Get A\n Way</string>
+
+<!--    DashBoard Strings-->
+    <string name="dash_title">Get A Way</string>
+    <string name="dash_search">Search…</string>
+    <string name="dash_departments">Dept\'s</string>
+    <string name="dash_sac">SAC</string>
+    <string name="dash_library">Library</string>
+    <string name="dash_cafeteria">Cafeteria</string>
+    <string name="dash_featured_locations">All Featured Locations</string>
+    <string name="featured_locations_description">All the locations that are featured and have the top demand in college!</string>
+    <string name="dash_categories">Categories</string>
+
+</resources>
