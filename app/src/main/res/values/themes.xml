@@ -10,12 +10,18 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <!--    DashBoard Theme-->
-    <style name="ThemeOverlay.AppCompat.dashTheme" parent="Theme.AppCompat">
-        <item name="android:fontFamily">@font/allerta_stencil</item>
-        <item name="colorPrimary">@color/yellow</item>
-        <item name="android:textColor">@color/charcoal</item>
-    </style>
+<!--    &lt;!&ndash;    DashBoard Theme&ndash;&gt;-->
+<!--    <style name="ThemeOverlay.AppCompat.dashTheme" parent="ThemeOverlay.AppCompat">-->
+<!--        <item name="android:fontFamily">@font/allerta_stencil</item>-->
+<!--        <item name="android:drawableTint">@color/charcoal</item>-->
+<!--        <item name="colorPrimary">@color/yellow</item>-->
+<!--        <item name="android:textColor">@color/charcoal</item>-->
+<!--    </style>-->
 
+<!--&lt;!&ndash;    DashBoard Navigation Theme&ndash;&gt;-->
+<!--    <style name="ThemeOverlay.AppCompat.dashNavTheme" parent="ThemeOverlay.AppCompat.dashTheme">-->
+<!--        <iten name="android:background=">@color/light_white"</iten>-->
+<!--        <item name="colorControlHighlight">@color/charcoal</item>-->
+<!--    </style>-->
 
 </resources>
