@@ -7,6 +7,9 @@
     <color name="yellow">#FFFEE715</color>
     <color name="dark_yellow">#FFA600</color>
 
+    <color name="light_white">#f5f5f5</color>
+    <color name="light_charcoal">#33101820</color>
+
     <!--    DashBoard Colors-->
     <!--    Body and background Colors-->
     <color name="home_background">#f2f5f8</color>

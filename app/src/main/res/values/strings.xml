@@ -1,19 +1,37 @@
 <resources>
     <string name="app_name">Get A Way</string>
 
-<!--    Splash Strings-->
+    <!--    Splash Strings-->
     <string name="splash_made_by">Made by Akshat</string>
     <string name="splash_title">Get A\n Way</string>
 
-<!--    DashBoard Strings-->
+    <!--    DashBoard Strings-->
     <string name="dash_title">Get A Way</string>
     <string name="dash_search">Search…</string>
     <string name="dash_departments">Dept\'s</string>
     <string name="dash_sac">SAC</string>
     <string name="dash_library">Library</string>
     <string name="dash_cafeteria">Cafeteria</string>
-    <string name="dash_featured_locations">All Featured Locations</string>
-    <string name="featured_locations_description">All the locations that are featured and have the top demand in college!</string>
+    <string name="dash_featured_locations">All \nFeatured Locations</string>
+    <string name="dash_featured_locations_description">All the locations that are featured and have the top demand in college!</string>
     <string name="dash_categories">Categories</string>
+
+    <string name="dash_nav_share">Share</string>\
+    <string name="dash_nav_categories">Categories</string>
+    <string name="dash_nav_login">Login</string>
+    <string name="dash_nav_profile">Profile</string>
+    <string name="dash_nav_logout">Logout</string>
+    <string name="dash_nav_home">Home</string>
+    <string name="dash_nav_add_missing_place">Add Missing Place</string>
+    <string name="dash_nav_notify_disparity">Notify Disparity</string>
+    <string name="dash_nav_rate_us">Rate Us</string>
+    <string name="dash_nav_header_slogan_name">We help you to find your way!</string>
+    <string name="dash_nav_header_logo_name">Get A Way</string>
+    <string name="mis_email_id">Email Id:</string>
+    <string name="mis_subject">Subject:</string>
+    <string name="mis_send">Send</string>
+    <string name="mis_body">Body:</string>
+    <string name="mis_add_missing_place">Add \nMissing Place</string>
+    <string name="dash_view_all">View All</string>
 
 </resources>
