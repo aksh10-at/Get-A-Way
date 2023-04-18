@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellow"
-    tools:context=".User.UserResponse.MissingPlace">
+    tools:context=".User.UserResponse.NotifyDisparity">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/missing_place_back_button"
+            android:id="@+id/notify_disparity_back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="5dp"
@@ -29,12 +29,11 @@
             tools:ignore="RtlSymmetry" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/signup_title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/allerta_stencil"
-            android:text="@string/mis_add_missing_place"
+            android:text="@string/dis_notify_disparity"
             android:textAllCaps="true"
             android:textColor="@color/charcoal"
             android:textSize="40sp"
@@ -63,7 +62,7 @@
                 app:startIconTint="@color/charcoal">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/mis_email_id"
+                    android:id="@+id/dis_email_id"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress" />
@@ -75,19 +74,18 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/mis_subject"
                 android:textColorHint="@color/charcoal"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
                 app:boxStrokeColor="@color/charcoal"
                 app:boxStrokeWidthFocused="2dp"
                 app:endIconMode="clear_text"
-
-                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
                 app:endIconTint="@color/charcoal"
+                app:helperText="(Subject-Write Place Name which has wrong info.)"
                 app:hintTextColor="@color/charcoal"
-                app:helperText="(Subject-Write Place Name you want to add)"
                 app:startIconDrawable="@drawable/mis_subject_icon"
                 app:startIconTint="@color/charcoal">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/mis_subject"
+                    android:id="@+id/dis_subject"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailSubject" />
@@ -97,21 +95,20 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
                 android:hint="@string/mis_body"
                 android:textColorHint="@color/charcoal"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
                 app:boxStrokeColor="@color/charcoal"
                 app:boxStrokeWidthFocused="2dp"
                 app:endIconMode="clear_text"
-
-                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
                 app:endIconTint="@color/charcoal"
-                android:layout_marginTop="5dp"
                 app:hintTextColor="@color/charcoal"
                 app:startIconDrawable="@drawable/mis_body_icon"
                 app:startIconTint="@color/charcoal">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/mis_body"
+                    android:id="@+id/dis_body"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:inputType="text" />
@@ -121,13 +118,13 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/mis_send"
+            android:id="@+id/dis_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
-            android:elevation="10dp"
             android:backgroundTint="#00000000"
+            android:elevation="10dp"
             android:text="@string/mis_send"
             android:textColor="@color/charcoal" />
 

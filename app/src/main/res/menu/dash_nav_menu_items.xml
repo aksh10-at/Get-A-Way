@@ -11,7 +11,7 @@
             android:icon="@drawable/dash_nav_add_missing_place_icon"
             android:title="@string/dash_nav_add_missing_place" />
         <item
-            android:id="@+id/dash_nav_edit_place"
+            android:id="@+id/dash_nav_notify_disparity"
             android:icon="@drawable/dash_nav_notify_disparity_icon"
             android:title="@string/dash_nav_notify_disparity" />
     </group>

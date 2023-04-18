@@ -1,11 +1,11 @@
 package com.akshdev.getaway.User.UserResponse;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
 
 import com.akshdev.getaway.R;
 import com.akshdev.getaway.User.UserDashboard;
@@ -13,7 +13,7 @@ import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.Objects;
 
-public class MissingPlace extends AppCompatActivity {
+public class NotifyDisparity extends AppCompatActivity {
 
     TextInputEditText subEdt, bodyEdt;
     AppCompatButton sendBtn;
@@ -21,17 +21,17 @@ public class MissingPlace extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_missing_place);
+        setContentView(R.layout.activity_notify_disparity);
 
-        subEdt = findViewById(R.id.mis_subject);
-        bodyEdt = findViewById(R.id.mis_body);
-        sendBtn = findViewById(R.id.mis_send);
+        subEdt = findViewById(R.id.dis_subject);
+        bodyEdt = findViewById(R.id.dis_body);
+        sendBtn = findViewById(R.id.dis_send);
 
-        sendBtn.setOnClickListener(new View.OnClickListener() {
+            sendBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String sendTo = "akshatv.ip.20@nitj.ac.in";
-                String subject = "(MissingPlace) " + Objects.requireNonNull(subEdt.getText());
+                String subject = "(NotifyDisparity) "+ Objects.requireNonNull(subEdt.getText()).toString();
                 String body = Objects.requireNonNull(bodyEdt.getText()).toString();
 
 
@@ -50,11 +50,11 @@ public class MissingPlace extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.missing_place_back_button).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.notify_disparity_back_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 UserDashboard.navigationView.setCheckedItem(R.id.dash_nav_home);
-                MissingPlace.super.onBackPressed();
+                NotifyDisparity.super.onBackPressed();
             }
         });
 

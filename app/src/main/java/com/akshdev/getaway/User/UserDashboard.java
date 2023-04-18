@@ -14,6 +14,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.akshdev.getaway.R;
 import com.akshdev.getaway.User.UserResponse.MissingPlace;
+import com.akshdev.getaway.User.UserResponse.NotifyDisparity;
 import com.google.android.material.navigation.NavigationView;
 
 public class UserDashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -23,7 +24,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
     LinearLayoutCompat contentView;
     AppCompatButton dashMenu, dashAdd;
     DrawerLayout drawerLayout;
-    NavigationView navigationView;
+    public static NavigationView navigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,7 +106,9 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         if(id==R.id.dash_nav_missing_place){
             startActivity(new Intent(getApplicationContext(), MissingPlace.class));
         }
-
+        if(id==R.id.dash_nav_notify_disparity){
+            startActivity(new Intent(getApplicationContext(), NotifyDisparity.class));
+        }
 
         return true;
     }
