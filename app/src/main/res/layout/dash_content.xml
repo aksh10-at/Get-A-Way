@@ -7,6 +7,7 @@
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/light_white"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -249,7 +250,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
-                    android:text="View All"
+                    android:text="@string/dash_view_all"
                     tools:ignore="RelativeOverlap" />
 
             </RelativeLayout>

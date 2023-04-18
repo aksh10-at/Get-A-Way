@@ -12,22 +12,30 @@
     </style>
 
 
-<!--    &lt;!&ndash;    DashBoard Theme&ndash;&gt;-->
-<!--    <style name="ThemeOverlay.AppCompat.dashTheme" parent="ThemeOverlay.AppCompat">-->
-<!--        <item name="android:fontFamily">@font/allerta_stencil</item>-->
-<!--        <item name="android:drawableTint">@color/white</item>-->
-<!--        <item name="colorPrimary">@color/yellow</item>-->
-<!--        <item name="android:textColor">@color/charcoal</item>-->
-<!--    </style>-->
+    <!--    DashBoard Theme-->
+    <style name="ThemeOverlay.AppCompat.dashTheme" parent="ThemeOverlay.AppCompat">
+        <item name="android:fontFamily">@font/allerta_stencil</item>
+        <item name="android:drawableTint">@color/white</item>
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="background">@color/light_charcoal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 
-<!--    &lt;!&ndash;    DashBoard Navigation Theme&ndash;&gt;-->
-<!--    <style name="ThemeOverlay.AppCompat.dashNavTheme" parent="ThemeOverlay.AppCompat.dashTheme">-->
-<!--        <item name="android:background">@color/light_white</item>-->
-<!--        <item name="colorControlHighlight">@color/charcoal</item>-->
-<!--    </style>-->
+    <!--    DashBoard Navigation Theme-->
+    <style name="ThemeOverlay.AppCompat.dashNavTheme" parent="ThemeOverlay.AppCompat">
+        <item name="android:fontFamily">@font/allerta_stencil</item>
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="background">@color/light_charcoal</item>
+        <item name="colorControlHighlight">@color/charcoal</item>
+    </style>
 
 
 
+    //cursor Color--
+    <style name="ThemeOverlay.AppTheme.TextInputEditText.Outlined" parent="">
+        <item name="colorPrimary">@color/white</item>
+    </style>
 
 </resources>
 

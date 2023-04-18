@@ -5,6 +5,7 @@
     android:layout_height="200dp"
     android:background="@color/light_white"
     android:paddingStart="15dp"
+    android:theme="@style/ThemeOverlay.AppCompat.dashNavTheme"
     tools:ignore="RtlSymmetry">
 
     <androidx.appcompat.widget.AppCompatTextView

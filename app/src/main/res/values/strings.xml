@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Get A Way</string>
 
-<!--    Splash Strings-->
+    <!--    Splash Strings-->
     <string name="splash_made_by">Made by Akshat</string>
     <string name="splash_title">Get A\n Way</string>
 
-<!--    DashBoard Strings-->
+    <!--    DashBoard Strings-->
     <string name="dash_title">Get A Way</string>
     <string name="dash_search">Search…</string>
     <string name="dash_departments">Dept\'s</string>
@@ -27,5 +27,11 @@
     <string name="dash_nav_rate_us">Rate Us</string>
     <string name="dash_nav_header_slogan_name">We help you to find your way!</string>
     <string name="dash_nav_header_logo_name">Get A Way</string>
+    <string name="mis_email_id">Email Id:</string>
+    <string name="mis_subject">Subject:</string>
+    <string name="mis_send">Send</string>
+    <string name="mis_body">Body:</string>
+    <string name="mis_add_missing_place">Add \nMissing Place</string>
+    <string name="dash_view_all">View All</string>
 
 </resources>
