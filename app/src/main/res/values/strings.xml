@@ -36,6 +36,7 @@
     <string name="mis_add_missing_place">Add \nMissing Place</string>
     <string name="dash_view_all">View All</string>
     <string name="dis_notify_disparity">Notify\nDisparity</string>
+    <string name="expand_all">Expand All</string>
 
 
 </resources>

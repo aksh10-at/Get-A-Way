@@ -8,6 +8,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -24,6 +25,8 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
     LinearLayoutCompat contentView;
     AppCompatButton dashMenu, dashAdd;
     DrawerLayout drawerLayout;
+
+    AppCompatTextView viewAll;
     public static NavigationView navigationView;
 
     @Override
@@ -42,6 +45,14 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
         //Navigation Drawer
         navigationDrawer();
+
+
+        findViewById(R.id.categories_view_all).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(UserDashboard.this,AllCategories.class));
+            }
+        });
 
 
     }
